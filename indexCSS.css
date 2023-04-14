@@ -1,0 +1,42 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.felt{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#felt1,#felt4,#felt7{
+  margin-left: 780px;
+}
+
+#felt3,#felt6,#felt9{
+  margin-right: 830px;
+}
+
+.teksten{
+  display: grid;
+  justify-content: center;
+}
+
+#winnerText{
+margin-left: 180px;
+}
+
+/* button{
+  width: 80px;
+  height: 20px;
+  margin-top: 32px;
+  margin-left: 150px;
+} */
+
+#knap1{
+display: grid;
+justify-content: center;
+}
